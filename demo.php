@@ -9,3 +9,4 @@ require_once './vendor/autoload.php';
 use Abstarfish\Starfish\Tools;
 
 Tools::hello();
+Tools::test();
