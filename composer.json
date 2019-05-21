@@ -1,0 +1,21 @@
+{
+    "name": "silergy/abstarfish",
+    "description": "这是我的描述",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shengland",
+            "email": "2770518845@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "Abstarfish\\Starfish\\": "src/Abstarfish/Starfish"
+        }
+    }
+}
